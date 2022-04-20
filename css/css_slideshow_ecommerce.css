@@ -108,6 +108,7 @@ border-right: 1px solid rgb(172, 172, 172);
   margin: 5px 0px;
   font-weight: 700;
   letter-spacing: 0.5px;
+  z-index: 1;
 }
 .type span {
   color: rgba(26, 26, 26, 0.5);
@@ -127,7 +128,7 @@ border-right: 1px solid rgb(172, 172, 172);
 
 .ns-logo {
   display: flex;
-  flex-direction: row;
+  justify-content: flex-start;
 }
 
 .ns-logo a {
