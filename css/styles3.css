@@ -1,0 +1,111 @@
+*{
+    font-family: museo-sans, -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    color: rgb(72, 72, 72);
+    
+  }
+
+  .h1Characters{
+      font-size: 1.75rem;
+      margin-bottom: 40px;
+  }
+
+  /*.Characters {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    justify-items: center;
+    
+  }
+*/
+
+
+  .Cards-char {
+   
+   
+    border-radius: 5px 5px 5px 5px;
+  }
+
+  .Characters h2 {
+      margin-bottom: 10px;
+      margin-left: 3px;
+      font-size: 1.3125rem;
+
+
+  }
+
+.Characters {
+    display: flex;
+    flex-direction:row;
+    gap: 40px;
+    
+}
+
+.Personaggi {
+    margin-left:  180px ;
+    margin-top: 100px;
+}
+
+
+
+  .mario-img {
+    background-image: url(https://assets.nintendo.com/image/upload/dpr_auto,f_auto,q_auto:best/v1/ncom/en_US/merchandising/Character%20Portals/1600x1600_NCOM_Home_Characters_Mario_BG);
+    width: 262px;
+    height: 262px;
+    border-radius: 3px 3px 3px 3px;
+
+   
+}
+
+.zelda-img {
+    background-image: url(https://assets.nintendo.com/image/upload/dpr_auto,f_auto,q_auto:best/v1/ncom/en_US/merchandising/Character%20Portals/1600x1600_NCOM_Home_Characters_TLOZ_BOTW_BG);
+    width: 262px;
+    height: 262px;
+    border-radius: 3px 3px 3px 3px;
+
+
+}
+
+
+.animal-img {
+    background-image: url(https://assets.nintendo.com/image/upload/dpr_auto,f_auto,q_auto:best/v1/ncom/en_US/merchandising/Character%20Portals/1600x1600_NCOM_Home_Characters_Animal_Crossing_BG);
+    width: 262px;
+    height: 262px;
+    border-radius: 3px 3px 3px 3px;
+
+
+}
+
+
+.kirby-img {
+    background-image:url(https://assets.nintendo.com/image/upload/dpr_auto,f_auto,q_auto:best/v1/ncom/en_US/merchandising/Character%20Portals/1600x1600_NCOM_Home_Characters_Kirby_BG) ;
+    width: 262px;
+    height: 262px;
+    border-radius: 3px 3px 3px 3px;
+}
+
+
+
+.hr {
+    margin-top: 80px;
+}
+
+
+.hrcharacters {
+    width: 100%;
+  
+    position: relative;
+    z-index: 5;
+    border-width: 0.0625rem 0px 0px;
+    border-top-style: solid;
+    border-top-color: rgb(218, 218, 218);
+}
+
+.Characters:hover {
+    cursor:grab
+}
+
+.Characters h2:hover {
+    cursor:initial;
+}

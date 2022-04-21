@@ -1,0 +1,104 @@
+
+*{
+    font-family: museo,sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #484848;
+    color: rgb(72, 72, 72)
+  }
+
+  .featured {
+      font-size: 1.75rem;
+      margin-left: 20px;
+  }
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 40px;
+    margin-top: 50px;
+    margin-left: 15px;
+
+}
+
+
+.Cards-Featured {
+    border: 1px solid rgb(211, 211, 211);
+    width: 260.8px;
+    height: 260.8px;
+    border-radius: 3px 3px 3px 3px;
+    
+}
+
+
+.A-title
+ {
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+     color:rgb(72, 72, 72);
+    line-height: 1.4;
+    text-decoration: none;
+    margin-left: 10px;
+    
+    
+    
+}
+
+.A-title:hover {
+    
+    color: rgb(230, 0, 18);
+    transition: all 200ms ease-in-out 0s;
+}
+
+
+
+.detail-box {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+    
+}
+
+.nintendoswitch {
+    padding-bottom: 0.125rem;
+    border-bottom:2px solid rgb(230, 0, 18);
+    width: 39%;
+    position:relative;
+    font-size: 0.875rem;
+    font-weight: 300;
+    color:rgb(72, 72, 72);
+    font-family: museo-sans, -apple-system, BlinkMacSystemFont, sans-serif;
+    margin-left: 10px;
+    padding-top: 7px;
+    font-weight: 300;
+    
+}
+
+
+.hrfeatured {    
+    width: 95%;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    z-index: 5;
+    border-width: 0.0625rem 0px 0px;
+    border-top-style: solid;
+    border-top-color: rgb(218, 218, 218);
+}
+
+.img-featured img{
+    border-radius: 2.5px 2.5px 1px 1px;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
