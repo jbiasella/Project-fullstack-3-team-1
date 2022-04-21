@@ -26,7 +26,7 @@
             top: 0px;
             left: 0px;
             width: 100%;
-            z-index: 1000;
+            position: absolute;
         }
 
         .top-navbar {
@@ -53,7 +53,7 @@
             align-items: center;
             gap: 1rem;
         }
-        }
+        
 
         .logo-header a {
             display: inline-flex;
@@ -230,12 +230,41 @@
 
         .img-hero img {
             padding: 25px;
+            width: -webkit-fill-available;
         }
 
         figure {
             display: flex;
             justify-content: center;
         }
+
+        .sect{
+            display: flex;
+            justify-content: space-between;
+
+        }
+
+        .sect h1{
+            font-size: 30px;
+        }
+
+        .desc-link{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .sect-right a{
+            display: flex;
+            text-decoration: none;
+        }
+
+        .desc-link-a{
+            font-size: 10px;
+            color: #484848;
+        }
+
+        
     </style>
 
 </head>
@@ -457,7 +486,7 @@
 
         </div>
 
-
+    
 
         <div class="img-hero">
 
@@ -470,7 +499,31 @@
 
 
         <div class="sect">
-            <h1>sono un blocco h1</h1>
+            <div class="sect-left">
+                <h1>Pre-order digitally today, play on 4/29</h1>
+                <button><a href="#">Cliccami!</a></button>
+
+
+            </div>
+
+            <div class="sect-right">
+               <a href="#" target="_blank" rel="noopener noreferrer">
+                <img src="https://www.esrb.org/wp-content/uploads/2019/05/E10plus.svg" alt="" srcset="">
+
+                <div class="desc-link">
+                    <div class="desc-link-a">Mild Violence</div>
+                    <div class="desc-link-a">In-Game Purchases, Users Interact</div>
+
+                </div>
+
+
+
+
+
+               </a> 
+            </div>
+            
+           
         </div>
 
 
